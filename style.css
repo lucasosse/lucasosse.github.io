@@ -1,4 +1,6 @@
-    
+    .font{
+        font-family: "Lucida Console";
+    }
     .photo {
         width:150px;
         border-radius:50%;
@@ -65,6 +67,14 @@
         width: 1000px;
         height: 1000px;
     }
+    
+    .styled-select select {
+       background: azure;
+       font-size: 16px;
+       line-height: 1;
+       height: 34px;
+       -webkit-appearance: none;
+   }
     
     #twitter{
         background-color:#00aced
