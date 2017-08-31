@@ -6,6 +6,7 @@
         border-width: 2px;
         border-style: solid;
         vertical-align:middle;
+        
     }
       
     .purple-background{
@@ -73,7 +74,7 @@
         background-color:#3b5998;
     }
     
-    #Github{
+    #github{
         background-color:white;
         color:black !important;
     }
