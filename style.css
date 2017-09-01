@@ -1,5 +1,23 @@
+    ul {
+        list-style:none;
+    }
+    
+    p {
+        font-size:120%;
+    }
+    
+    h1{
+        font-size:250%;
+    }
+    
+    .title {
+        font-size:150%;
+    }
+    
     .font{
         font-family: "Lucida Console";
+        font-size:16px;
+        line-height:1.2;
     }
     .photo {
         width:150px;
@@ -64,8 +82,7 @@
     }
     
     .embed{
-        width: 1000px;
-        height: 1000px;
+        padding:5px 20px 20px 20px;
     }
     
     .styled-select select {
