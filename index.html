@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     
-        <meta name=viewport content="width=device-width, initial-scale=1">
-    <!-- for mobile responsiveness -->
+    <!-- for mobile responsiveness -->    
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
 
 <link rel="stylesheet" href="style.css" type="text/css"/>
 
@@ -17,35 +18,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-<!--CLT Password protection 
-
-
-<script>
-
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-
-while (testV < 3) {
-    if (!pass1) 
-    history.go(-1); /*global history*/
-    if (pass1 == "letmein") {
-        window.open('clt.html');
-        break;
-} 
-
-testV+=1;
-var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','');
-}
-
-    if (pass1.toLowerCase()!="password" & testV ==3) 
-    history.go(-1);
-    return " ";
-} 
-</script>
-
-will try better later with PHP-->
-
 <html lang="en">
 
 <head>
@@ -57,13 +29,13 @@ will try better later with PHP-->
     
     <center>
         
-        <div class ="purple-background">
+        <div class ="header">
     
             <a href="https://www.facebook.com/lucasosse"><img class="photo" src="https://scontent.fcpq5-1.fna.fbcdn.net/v/t1.0-9/10441289_866901819991391_3924865745691549783_n.jpg?oh=18f7b3e65a162321cef2ffc51534504f&oe=5A01CDC9" alt="A picture of the website's author"></a>
     
             </div>
 
-        <div class="purple-background ">
+        <div class="header">
     
         <a href="https://twitter.com/lucasosse" target="_blank"><button id="twitter" class="css-button">Twitter</button></a>
         
@@ -95,20 +67,8 @@ will try better later with PHP-->
         <p class="lead">Estudante de TI, atualmente concentrando meus esforços em desenvolvimento em web e IoT. <br> Nesta página você encontrará projetos nos quais trabalhei e informações sobre mim.</p>
       </div>
 
-<div class="text-background flex-container">
+<div class="flex-container">
     
-
-<!--
-<p>Over the years, I've been developing several prototypes in my quest to learn IT, they are as follows
-</p>
-
-<ul>
-    <li>Universe UI</li>
-    <li>Pen Drive Password Manager</li>
-    <li>This very website</li>
-</ul>
--->
-
 <ul>
     
 <p class="title">Experiência Profissonal</p>
@@ -136,38 +96,72 @@ Manuseio de alimentos e bebidas, atendimento ao público e controle de caixa.
     
 <p class="title">Formação Acadêmica</p>
 
-    
     <li>Graduação em Ciência da Computação em Andamento<br>
 
 Faculdade de Tecnologia, Ciências e Educação (FATECE) • Pirassununga, SP</li><br>
+
+    <li>Curso de Francês<br>International Language School of Canada (ILSC) • Montreal, Quebec, Canadá • 2017</li><br>
 
     <li>Especialização em Inglês<br>
 
 Wizard • Santa Cruz das Palmeiras, SP • 2014
 
-</li><br>
+</li>
 
-    <li>Curso de Francês<br>International Language School of Canada (ILSC) • Montreal, Quebec, Canadá • 2017</li>
     
     </ul>
 
-<ul>
-    
-<p class="title">Habilidades</p>
-
-<li>Programação em Linguagem C</li>
-<li>Programação em Linguagem PHP</li>
-<li>Programação em Linguagem Python</li>
-<li>Programação em Linguagem Java</li>
-<li>Desenvolvimento Web</li>
-<li>Pacote Windows Office</li>
-<li>Inglês Fluente</li>
-<li>Francês Básico</li>
-
-</ul></p>
-            
 </div>
 
+<ul>
+    
+<div style="padding-top:20px">
+    
+    <p class="title" style="text-align:center">Habilidades</p>
+    
+    <ul class="flex-container">
+        
+  
+  <li class="flex-item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/450px-Flag_of_the_United_States.svg.png"alt="Bandeira EUA" class="photo-skill"><br>Inglês Fluente</li>
+  
+  <li class="flex-item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/450px-Flag_of_France.svg.png"alt="Bandeira da França" class="photo-skill"><br>Francês Básico</li>
+        
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc3%2FPython-logo-notext.svg%2F1024px-Python-logo-notext.svg.png&f=1" alt="Python logo" class="photo-skill"><br>Programação Python</li>
+  
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimg.windowsnoticias.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fjava.jpg&f=1"alt="Java logo" class="photo-skill"><br>Programação Java</li>
+  
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.devictio.fr%2Fwp-content%2Fuploads%2Flogo_javascript.png&f=1"alt="JavaScript logo" class="photo-skill"><br>Programação JavaScript</li>
+  
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fhowtolearn.me%2Fwp-content%2Fuploads%2F2014%2F04%2F21364831.png&f=1"alt="PHP logo" class="photo-skill"><br>Programação PHP</li>
+  
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.unixstickers.com%2Fimage%2Fdata%2Fstickers%2FC%2FC%2520language.sh.png&f=1"alt="C logo" class="photo-skill"><br>Programação C</li>
+  
+  <li class="flex-item"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fdigitaltrends-uploads-prod%2F2013%2F08%2Fmicrosoft-office-365-logo.png&f=1"alt="Windows Office logo" class="photo-skill"><br>Pacote Office</li>
+  
+</ul>
+    <!-- old style, for backup
+    <ul>    
+    <p class="title">Habilidades</p>
+    
+    <li>Inglês Fluente</li>
+    
+    <li>Francês Básico</li>
+    
+    <li><img src="https://www.python.org/static/img/python-logo@2x.png" alt="Python Language logo" class="photo-skill"></li>
+    
+    <li><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimg.windowsnoticias.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fjava.jpg&f=1"alt="Java logo" class="photo-skill"></li>
+    
+    <li><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.devictio.fr%2Fwp-content%2Fuploads%2Flogo_javascript.png&f=1"alt="JavaScript logo" class="photo-skill"></li>
+    
+    <li><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fhowtolearn.me%2Fwp-content%2Fuploads%2F2014%2F04%2F21364831.png&f=1"alt="PHP logo" class="photo-skill"></li>
+    
+    <li><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.unixstickers.com%2Fimage%2Fdata%2Fstickers%2FC%2FC%2520language.sh.png&f=1"alt="C logo" class="photo-skill"></li>
+    
+    <li><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fdigitaltrends-uploads-prod%2F2013%2F08%2Fmicrosoft-office-365-logo.png&f=1"alt="Windows Office logo" class="photo-skill"></li>
+    
+    </ul>
+-->
+</div>
 
       <div class="embed">   
         <center>
@@ -189,16 +183,6 @@ Wizard • Santa Cruz das Palmeiras, SP • 2014
           </center>
         </div>
 
-
-<!-- I tried....
-
-<div style="padding-top:20px;">
-    <center>
-    <form><input class="css-button" type="button" value="Enter C.L.T" onClick="passWord()"></form>
-    </center>
-    </div>
-    
-    -->
 
 </body>
 

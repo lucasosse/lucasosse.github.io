@@ -1,3 +1,6 @@
+    @import "compass/css3";
+
+    
     ul {
         list-style:none;
     }
@@ -29,14 +32,15 @@
         
     }
       
-    .purple-background{
+    .header{
     background-color: rgb(153,51,255);
     padding:10px 5px 15px 20px; 
         
     }
     
-    .text-background{
+    .my-background{
         background-color:#4CAF50;
+        padding:10px 5px 15px 20px;
         color:white;
     }
     
@@ -82,7 +86,7 @@
     }
     
     .embed{
-        padding:5px 20px 20px 20px;
+        padding:20px 20px 20px 20px;
     }
     
     .styled-select select {
@@ -92,6 +96,22 @@
        height: 34px;
        -webkit-appearance: none;
    }
+   
+   .skills{
+       padding:10px 5px 15px 20px;
+       display:flex;
+       flex-direction: row;
+   }
+   
+   .photo-skill {
+        width:150px;
+        height:130px;
+        border-color: transparent;
+        border-width: 2px;
+        border-style: solid;
+        vertical-align:middle;
+        
+    }
     
     #twitter{
         background-color:#00aced
@@ -113,5 +133,26 @@
     #fcc{
         background-color:darkgreen;
     }
-  
+    
+    .flex-container {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+    }
+    
+    .flex-item {
+      width: 200px;
+      height: 150px;
+      margin-top: 10px;
+    }
+      
     
