@@ -74,16 +74,16 @@
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding:10px 5px 15px 20px; 
+        padding:10px 0px 15px 20px; 
     }
     
     .jumbotron{
-        padding:10px 5px 15px 0px !important; 
+        padding:10px 0px 15px 0px !important; 
         
     }
     
     .embed{
-        padding:20px 20px 20px 0px;
+        padding:20px 0px 20px 0px;
     }
     
     .styled-select select {
@@ -95,7 +95,7 @@
    }
    
    .skills{
-       padding:10px 5px 15px 0px;
+       padding:10px 0px 15px 0px;
        display:flex;
        flex-direction: row;
    }
