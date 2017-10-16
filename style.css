@@ -110,6 +110,20 @@
         
     }
     
+    .photo-cert {
+        width:400px;
+        height:350px;
+        border-color: transparent;
+        border-width: 15px;
+        border-style: solid;
+        vertical-align:middle;
+        
+    }
+    
+    #ilsc2{
+        height:550px !important;
+    }
+    
     #twitter{
         background-color:#00aced
     }
@@ -151,5 +165,6 @@
       height: 150px;
       margin-top: 10px;
     }
-      
+    
+
     
